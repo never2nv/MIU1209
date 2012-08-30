@@ -1,0 +1,72 @@
+/*
+Title: Style.css
+Author: Paul J. Miller
+VFW-1208
+Date: 07/03/2012
+Project 2: Heritage Tree
+*/
+
+body
+{
+	background-color: #554B53;
+}
+
+@font-face {
+font-family: 'Orbitron-Light';
+src: url('../fonts/orbitron-light-webfont.ttf') format('truetype'),
+url('../fonts/orbitron-light-webfont.eot') format('eot'),
+url('../fonts/orbitron-light-webfont.woff') format('woff'),
+url('../fonts/orbitron-light-webfont.svg#iefix') format('svg');
+}
+
+h1 
+{
+	color: white;
+	font-family: Tahoma, Geneva, sans-serif;
+	width: 50%;
+	text-align: center;
+	font-weight: bolder;
+}
+
+h2 
+{
+	color: white;
+	text-align: center;
+	font-family: Times;
+	font-weight: normal;
+}
+
+p
+{
+	color: white;
+	font-family: Orbitron-Light, Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.1em;
+}
+
+div
+{
+	display:block;
+}
+
+a:hover
+{
+	color: black;
+	outline: none;
+}
+
+form
+{
+	display:inline;
+	padding: 2px;s
+}
+
+label
+{
+	padding: 1px;
+}
+
+select
+{
+	display:block;
+}
